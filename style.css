@@ -1,0 +1,69 @@
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --brown: hsl(30, 10%, 34%);
+    --charcoal: hsl(24, 5%, 18%);
+
+    --fs-para: 1rem;
+
+    --ff-young: 'Young Serif', serif;
+    --fw-young-regular: 400;
+
+    --ff-outfit: 'Outfit', sans-serif;
+    --fw-outfit-regular: 400;
+    --fw--outfit-semiBold: 600;
+    --fw-outfit-bold: 700;
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+    font: inherit;
+    margin: 0;
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+/*
+  5. Improve media defaults
+*/
+img, svg {
+    display: block;
+    max-width: 100%;
+}
+
+p,
+h1 {
+    overflow-wrap: break-word;
+}
+
+body {
+    font-family: var(--ff-outfit);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
